@@ -32,6 +32,11 @@ div.soon {
     top: 45%;
     left: 0;
     right: 0;
+
+    width: 250pt;
+    margin: auto;
+    padding-top: 8pt;
+    background-color: #fff3;
 }
 
 div.soon h2 {
@@ -47,6 +52,7 @@ div.soon h2 {
 }
 
 div.soon a {
-    color: #c0c0c0;
+    color: #dcdcdc;
+    font-weight: bold;
 }
 
