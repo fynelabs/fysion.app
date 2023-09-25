@@ -2,57 +2,103 @@ html, body {
     padding: 0;
     margin: 0;
 
-    font-family: sans-serif;
+    font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
 }
 
 body {
-    background-image: url(background.jpg);
-    background-size: cover;
-    background-position: 50%;
+    background-color: #eee;
 }
 
-h1 {
-    width: 100%;
-    text-align: center;
-    color: black;
+header {
+    height: 42pt;
     background-color: white;
 
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: .5em 0;
-    font-size: 2em;
+    border-bottom: 1px solid #dddbdf;
+    text-align: center;
+}
+
+header h1 {
+    color: black;
+    float: left;
+    position: absolute;
+    top: 0;
+
+    font-weight: 400;
+    padding-left: 10pt;
+    font-size: 21pt;
+    margin-top: 6pt;
+}
+
+header img {
+    height: 29pt;
+    padding-top: 6pt;
+}
+
+div#left, div#right {
+    background-color: white;
+    z-index: -1;
+
+    height: 100%;
+    width: 20%;
+    position: absolute;
+}
+
+div#left {
+    border-right: 1px solid #dddbdf;
+}
+
+div#right {
+    border-left: 1px solid #dddbdf;
+    right: 0;
 }
 
 div.soon {
     display: block;
-    text-align: center;
-    color: white;
 
     position: absolute;
-    top: 45%;
+    top: 34%;
     left: 0;
     right: 0;
-
-    width: 352px;
+    width: 264pt;
     margin: auto;
-    padding-top: 8pt;
-    background-color: #fff3;
+
+    padding: 8pt 20pt;
+    background-color: white;
+    border: 1px solid #dddbd8;
+    border-radius: 8pt;
+    box-shadow: 0 4pt 3pt #dddbd8;
+
+    font-size: 10pt;
 }
 
 div.soon h2 {
-    border-bottom: 1px solid white;
-    width: 12em;
-    max-width: 100%;
-    margin: 0 auto;
-    
+    margin: 4pt auto;
     padding-bottom: 0.25em;
     text-transform: uppercase;
-    font-size: 2em;
-    font-weight: 100;
+    font-size: 18pt;
+    font-weight: normal;
 }
 
 div.soon a {
-    color: #dcdcdc;
-    font-weight: bold;
+    color: #ff7a00;
+}
+
+@media only screen and (max-width: 600px) {
+  div#left, div#right {
+      display: none;
+  }
+
+  div.soon {
+      width: 100%;
+      border-radius: 0;
+      border: none;
+
+      padding: 8pt 5%;
+      top: 28%;
+  }
+
+  div.soon p, div#sf3z0d13604fcd6878f69a51524104d3b6eaddf7c1d6ae1a4da08f64b3de7bfaa6bf {
+      width: 90%;
+  }
 }
 
