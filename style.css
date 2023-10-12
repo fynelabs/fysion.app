@@ -52,6 +52,18 @@ div#right {
     right: 0;
 }
 
+a.button {
+    padding: 5pt 10pt;
+    color: #fff !important;
+    background-color: #52495d;
+    border-radius: 5pt;
+    border: none;
+    box-shadow: #c0c0c0 1.5pt 1.5pt 2pt;
+
+    font-size: 105%;
+    text-decoration: none;
+}
+
 div.soon {
     display: block;
 
