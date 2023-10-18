@@ -52,7 +52,7 @@ div#right {
     right: 0;
 }
 
-a.button {
+a.button, button.button {
     padding: 5pt 10pt;
     color: #fff !important;
     background-color: #52495d;
@@ -60,6 +60,7 @@ a.button {
     border: none;
     box-shadow: #c0c0c0 1.5pt 1.5pt 2pt;
 
+    cursor: pointer;
     font-size: 105%;
     text-decoration: none;
 }
