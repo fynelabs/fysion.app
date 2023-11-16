@@ -29,6 +29,12 @@ header h1 {
     margin-top: 6pt;
 }
 
+header h1 a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header img {
     height: 29pt;
     padding-top: 6pt;
