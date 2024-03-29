@@ -36,7 +36,12 @@
       <img src="/img/logo.png" />
     </header>
 
-    <div class="soon">
+    {% assign override = "" %}
+    {% if page.developer %}
+      {% assign override = ' style="width: 460pt"' %}
+    {% endif %}
+
+    <div class="soon"{{ override }}>
       <h2>{{ page.title }}</h2>
 
       {{ content }}
