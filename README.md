@@ -14,16 +14,16 @@ First stable test release made generally available, it included:
 
 ### v0.1.1
 
--[x] Deployment to all plaforms with Geoffrey backend (iOS not included)
+* Deployment to all plaforms with Geoffrey backend (iOS not included)
 
 ### v0.1.2
 
--[x] Autosave
--[x] Re-order items in a container
+* Autosave
+* Re-order items in a container
 
 ### v0.1.3
 
--[x] Mobile layout support
--[x] Split container/collection from widget palette
--[x] Icon/appID metadata checked before attempting to deploy
+* Mobile layout support
+* Split container/collection from widget palette
+* Icon/appID metadata checked before attempting to deploy
 
