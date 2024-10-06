@@ -27,3 +27,9 @@ First stable test release made generally available, it included:
 * Split container/collection from widget palette
 * Icon/appID metadata checked before attempting to deploy
 
+### v0.1.4
+
+* Add dark mode support
+* Fix developer tools on Windows
+* Clear previous content when opening a project
+* Fix flow of the project create dialog and menus
