@@ -33,3 +33,12 @@ First stable test release made generally available, it included:
 * Fix developer tools on Windows
 * Clear previous content when opening a project
 * Fix flow of the project create dialog and menus
+
+### v0.1.5
+
+* Added AppTabs container and Rectangle, Gradient objects
+* Update container edit panel on layout change
+* Support email notifications for builds
+* Improve support for List, Table and Tree collection widgets
+* Fixes to Android compile issues
+* Fix issue where widget ID could be forgotten
