@@ -42,3 +42,11 @@ First stable test release made generally available, it included:
 * Improve support for List, Table and Tree collection widgets
 * Fixes to Android compile issues
 * Fix issue where widget ID could be forgotten
+
+### v0.1.6
+
+* New home screen to get people started
+* Add support for multiple windows, or adding to existing project
+* Validate app metadata to match build requirements
+* Addition of help text and menus linking to docs and support
+* Various graphical bug fixes
