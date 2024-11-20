@@ -4,7 +4,7 @@ layout: default
 developer: true
 ---
 
-Thanks for your interest in the Fysion app creator!
+Thanks for your interest in the Fysion Universal App Studio!
 
 We are very excited to be able to start offering access to the first versions of this exciting new product.
 We are welcoming early access to try this out and we are **gathering feedback on the design and workflow**.
