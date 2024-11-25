@@ -1,7 +1,6 @@
 ---
-title: 'Fysion : Help'
+title: Help
 layout: default
-developer: true
 ---
 
 Welcome to some Fysion help pages, many more will follow.

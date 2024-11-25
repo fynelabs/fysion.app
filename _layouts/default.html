@@ -24,25 +24,16 @@
   </head>
 
   <body>
-    <div id="left">
-      &nbsp;
-    </div>
-    <div id="right">
-      &nbsp;
-    </div>
-
     <header>
       <h1><a href="/">Fysion</a></h1>
-      <img src="/img/logo.png" />
+      <picture>
+        <source srcset="/img/logo-light.png" media="(prefers-color-scheme:dark)">
+        <img src="/img/logo-dark.png">
+      </picture>
     </header>
 
-    {% assign override = "" %}
-    {% if page.developer %}
-      {% assign override = ' style="width: 460pt; top: 18%"' %}
-    {% endif %}
-
-    <div class="soon"{{ override }}>
-      <h2>{{ page.title }}</h2>
+    <div class="main">
+      <h2>Fysion: {{ page.title }}</h2>
 
       {{ content }}
     </div>

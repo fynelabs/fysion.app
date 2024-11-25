@@ -1,7 +1,6 @@
 ---
-title: 'Fysion : Help - First Project'
+title: Help - First Project
 layout: default
-developer: true
 ---
 
 To get started tap the "Create Project" button on the main screen.

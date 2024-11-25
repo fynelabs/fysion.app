@@ -1,7 +1,6 @@
 ---
-title: 'Fysion : Help - Connecting with Code'
+title: Help - Connecting with Code
 layout: default
-developer: true
 ---
 
 For times when you need to write code to configure your application widgets you can choose

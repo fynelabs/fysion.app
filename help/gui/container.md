@@ -1,7 +1,6 @@
 ---
-title: 'Fysion : Help - Arranging widgets'
+title: Help - Arranging widgets
 layout: default
-developer: true
 ---
 
 Widgets can be added to your user interface by selecting a container and choosing the new widget from the

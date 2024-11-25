@@ -1,7 +1,6 @@
 ---
-title: 'Fysion : Early Access'
+title: Early Access
 layout: default
-developer: true
 ---
 
 Thanks for your interest in the Fysion *Universal App Studio*!

@@ -6,11 +6,11 @@ html, body {
 }
 
 body {
-    background-color: #eee;
+    background-color: #f9f9f9;
 }
 
 header {
-    height: 42pt;
+    height: 37pt;
     background-color: white;
 
     border-bottom: 1px solid #dddbdf;
@@ -25,7 +25,7 @@ header h1 {
 
     font-weight: 400;
     padding-left: 10pt;
-    font-size: 21pt;
+    font-size: 18pt;
     margin-top: 6pt;
 }
 
@@ -36,26 +36,8 @@ header h1 a {
 }
 
 header img {
-    height: 29pt;
-    padding-top: 6pt;
-}
-
-div#left, div#right {
-    background-color: white;
-    z-index: -1;
-
-    height: 100%;
-    width: 20%;
-    position: absolute;
-}
-
-div#left {
-    border-right: 1px solid #dddbdf;
-}
-
-div#right {
-    border-left: 1px solid #dddbdf;
-    right: 0;
+    height: 28pt;
+    padding-top: 4pt;
 }
 
 a.button, button.button {
@@ -71,52 +53,68 @@ a.button, button.button {
     text-decoration: none;
 }
 
-div.soon {
+div.main {
     display: block;
 
-    position: absolute;
-    top: 30%;
-    left: 0;
-    right: 0;
-    width: 264pt;
-    margin: auto;
+    height: auto;
+    width: auto;
+    margin: 100pt;
+    margin-bottom: 142pt;
 
     padding: 8pt 20pt;
     background-color: white;
     border: 1px solid #dddbd8;
-    border-radius: 8pt;
-    box-shadow: 0 4pt 3pt #dddbd8;
 
     font-size: 10pt;
 }
 
-div.soon h2 {
+div.main h2 {
     margin: 4pt auto;
     padding-bottom: 0.25em;
-    text-transform: uppercase;
+    text-align: center;
     font-size: 18pt;
-    font-weight: normal;
+    font-weight: bold;
 }
 
-div.soon a {
+div.main a {
     color: #ff7a00;
 }
 
-@media only screen and (max-width: 600px) {
-  div#left, div#right {
-      display: none;
-  }
+@media (prefers-color-scheme: dark) {
+    header, div.main {
+        background: #090909;
+        color: white;
+    }
 
-  div.soon {
+    header {
+        border-bottom: 1px solid #303030;
+    }
+    header h1 a {
+        color: white;
+    }
+
+    div.main {
+        border: 1px solid #303030;
+    }
+
+    body {
+        background: #181d25;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  div.main {
       width: 100%;
       border-radius: 0;
       border: none;
 
+      margin: 100pt 0;
       padding: 8pt 5%;
       top: 28%;
   }
 
-  div.soon p, div#sf3z0d13604fcd6878f69a51524104d3b6eaddf7c1d6ae1a4da08f64b3de7bfaa6bf {
+  div.main p {
       width: 90%;
   }
 }
