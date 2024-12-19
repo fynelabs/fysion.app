@@ -50,3 +50,13 @@ First stable test release made generally available, it included:
 * Validate app metadata to match build requirements
 * Addition of help text and menus linking to docs and support
 * Various graphical bug fixes
+
+### v0.1.7
+
+* Support editing window properties: title, fixed size and full screem
+* Remember window sizes and device mode when changing in the editor
+* Add create app from template menu item
+* Option to create button handlers in button action select
+* Add abilitu to resize side bars
+* Support building apps > 1MB
+* Updated libraries for speed and bug fixes
