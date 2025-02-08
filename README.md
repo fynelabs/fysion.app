@@ -60,3 +60,14 @@ First stable test release made generally available, it included:
 * Add abilitu to resize side bars
 * Support building apps > 1MB
 * Updated libraries for speed and bug fixes
+
+### v0.1.8
+
+* Add drag and drop from the widget palette
+* Support moving items in and out of containers
+* Add tablet preview to the editor
+* Added search to widget list
+* Support resizing of side panels and remember position
+* Context menus added to widget tree for common tasks
+* Add spacer widget
+* Update to a more compact layout
