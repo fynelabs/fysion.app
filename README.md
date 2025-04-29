@@ -6,6 +6,16 @@ This project contains the community discussions, planning and the website of the
 
 ## Releaess
 
+### v0.1.10
+
+* Added support for editing form contents
+* Update apps to use latest Fyne by default
+* Improved visual for connecting side-by-side code and preview
+* Providing a new feedback widget for gathering user opinions
+* Improve layout for smaller screens / windows
+* Fix possible crash when tapping widget "Insert"
+* Fix issues where theme would not apply completely where user changes light/dark while app is open
+
 ### v0.1.9
 
 * Add option to display the user interface code alongside the visual editor
