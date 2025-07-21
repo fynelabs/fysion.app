@@ -1,10 +1,19 @@
 # Fysion.app
 
-This project contains the community discussions, planning and the website of the Fysion app builder project.
+This project contains the status updates for the legacy Fysion.app universal app studio.
+
+Development work has now moved to https://apptrix.ai.
 
 <img width="568" alt="Fysion deploy screenshot" src="https://github.com/user-attachments/assets/3bd68c5c-200b-48d8-a30e-2db4c10d7344">
 
 ## Releaess
+
+### v0.1.11
+
+* Added graphical "Text" primitive
+* Support for editing toolbars
+* Many bug fixes
+* Notice that app has moved to https://apptrix.ai
 
 ### v0.1.10
 
